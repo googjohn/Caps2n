@@ -40,10 +40,6 @@ const Hero = () => {
           We offer
           <span id="typing-text" className="typed text-3xl ml-3" ref={typedRef}></span>
         </h2>
-        {/* <div className="actions flex flex-col justify-center md:flex-row">
-          <a href="#default-carousel" className="btn-get-started">View Gallery</a>
-          <a href="#services" className="btn-services">Our Services</a>
-        </div> */}
         <div className="actions flex flex-col justify-center md:justify-center md:flex-row md:flex-wrap">
           <a href="#default-carousel" className="btn-get-started">View Gallery</a>
           <a href="#services" className="btn-services">Our Services</a>

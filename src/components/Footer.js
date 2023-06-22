@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../assets/logo-no-background.png';
 import './Footer.css';
 export const Footer = () => {
   return (
@@ -9,7 +10,8 @@ export const Footer = () => {
             <div className="col-span-1">
               <div className="foot-item">
                 <div className="foot-item-header pb-4">
-                  <h3 className="w-title-a text-brand font-medium text-3xl">topagent.ph</h3>
+                  {/* <h3 className="w-title-a text-brand font-medium text-3xl">topagent.ph</h3> */}
+                  <img src={Logo} alt="" />
                 </div>
                 <div className="w-body-a ml-3">
                   <p className="w-text-a text-white leading-8">
@@ -62,7 +64,7 @@ export const Footer = () => {
             <div className="col-span-1">
               <div className="foot-item">
                 <div className="foot-item-header pb-4">
-                  <h3 className="w-title-a text-brand font-medium text-3xl">Property sites</h3>
+                  <h3 className="w-title-a text-brand font-medium text-3xl">Key Locations</h3>
                 </div>
                 <div>
                   <ul className="list-unstyled leading-8 font-medium">
@@ -78,17 +80,14 @@ export const Footer = () => {
 
                       <a href="#" className='py-1 ml-3'>Cebu City</a>
                     </li>
-                    <li className="item-list-a">
 
-                      <a href="#" className='py-1 ml-3'>Davao City</a>
-                    </li>
                     <li className="item-list-a">
 
                       <a href="#" className='py-1 ml-3'>Tagaytay</a>
                     </li>
                     <li className="item-list-a">
 
-                      <a href="#" className='py-1 ml-3'>Metro Manila</a>
+                      <a href="#" className='py-1 ml-3'>New Manila</a>
                     </li>
                   </ul>
                 </div>
@@ -101,16 +100,16 @@ export const Footer = () => {
                 </div>
                 <ul className="text-gray-800 dark:text-gray-400 font-medium">
                   <li className="item-list-a">
-                    <a href="#" className="">Privacy Policy</a>
+                    <a href="#" className="py-1 ml-3">Privacy Policy</a>
                   </li>
                   <li className="item-list-a">
-                    <a href="#" className="">Licensing</a>
+                    <a href="#" className="py-1 ml-3">Licensing</a>
                   </li>
                   <li className="item-list-a">
-                    <a href="#" className="">Terms &amp; Conditions</a>
+                    <a href="#" className="py-1 ml-3">Terms &amp; Conditions</a>
                   </li>
                   <li className="item-list-a">
-                    <a href="#" className="">Brand Guidline</a>
+                    <a href="#" className="py-1 ml-3">Brand Guidline</a>
                   </li>
                 </ul>
               </div>
@@ -163,18 +162,18 @@ export const Footer = () => {
             </p>
           </div>
         </div>
-        <ul class="max-w-screen-xl mx-auto flex flex-wrap items-center mt-3 text-sm font-medium text-gray-100 dark:text-gray-400 sm:mt-0">
+        <ul className="max-w-screen-xl mx-auto flex flex-wrap items-center mt-3 text-sm font-medium text-gray-100 dark:text-gray-400 sm:mt-0">
           <li>
-            <a href="#" class="nav-footer text-white md:mr-6">About</a>
+            <a href="#" className="nav-footer text-white md:mr-6">About</a>
           </li>
           <li>
-            <a href="#" class="nav-footer text-white md:mr-6">Services</a>
+            <a href="#" className="nav-footer text-white md:mr-6">Services</a>
           </li>
           <li>
-            <a href="#" class="nav-footer text-white md:mr-6">Pricing</a>
+            <a href="#" className="nav-footer text-white md:mr-6">Pricing</a>
           </li>
           <li>
-            <a href="#" class="nav-footer text-white">Contact</a>
+            <a href="#" className="nav-footer text-white">Contact</a>
           </li>
         </ul>
       </section>

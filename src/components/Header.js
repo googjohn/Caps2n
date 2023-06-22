@@ -25,7 +25,7 @@ const Header = () => {
           <div className="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
             <div className="px-4 py-3">
               <span className="block text-sm text-gray-900 dark:text-white">Bonnie Green</span>
-              <span className="block text-sm  text-gray-500 truncate dark:text-gray-400">name@flowbite.com</span>
+              <span className="block text-sm  text-gray-500 truncate dark:text-gray-400">name@gege.com</span>
             </div>
             <ul className="py-2" aria-labelledby="user-menu-button">
               <li>
@@ -48,9 +48,9 @@ const Header = () => {
           </button>
         </div>
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu-2">
-          <ul className="flex flex-col font-medium  md:p-0 mt-4 border border-gray-100 rounded-lg bg-black md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-black dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col font-medium  md:p-0 mt-4 border border-gray-100 bg-black md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-black dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-              <a href="#" className="nav-link block text-white bg-green text-lg  md:bg-transparent md:text-green md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+              <a href="#" className="active nav-link block text-white bg-green text-lg  md:bg-transparent md:hover:text-green md:text-white md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
             </li>
             <li>
               <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
