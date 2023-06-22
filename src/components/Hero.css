@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+:root {
+  --logo-color: #c8b568;
+  --primary-color: #229b50;
+}
+
+.text-logo {
+  color: var(--logo-color);
+}
+
+#spacer {
+  padding: 0px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* hero */
+#hero {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  background: url(../assets/images/bg-hero-main.jpg) top center;
+  background-size: cover;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+#hero .hero-logo {
+  margin: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+#hero .hero-logo img {
+  max-width: 100%;
+}
+
+#hero .hero-container {
+  background: rgba(0, 0, 0, 0.5);
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#hero h1 {
+  margin: 30px 0 10px 0;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 45px;
+    line-height: 36px;
+  }
+  #hero .hero-logo {
+    max-width: 350px;
+  }
+  .btn-get-started, .btn-services {
+    width: 300px;
+    align-self: center;
+  }
+}
+
+#hero h2 {
+  color: #ccc;
+  margin-bottom: 50px;
+}
+
+#hero h2 span {
+  color: #fff;
+  transition: 0.3s;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  #hero h2 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+}
+
+#hero .actions a {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  transition: 0.5s;
+  margin: 10px;
+}
+
+.actions .btn-get-started {
+  background: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  color: #fff;
+  border-radius: 50px;
+}
+
+.actions .btn-get-started:hover {
+  background: none;
+  border: 2px solid #fff;
+  /* border: 2px solid var(--logo-color); */
+  color: #fff;
+}
+
+.actions .btn-services {
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.actions .btn-services:hover {
+  background: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  /* border: 2px solid var(--logo-color); */
+  /* color: #c8b568; */
+}
+
+
+
+/* overlay */
+.overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 27%,
+    rgba(0, 0, 0, 0.5) 90%
+  );
+}
+
+.overlay * {
+  z-index: 10;
+}
+

@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import Hero from "./components/Hero";
+import Header from "./components/Header";
+import { Footer } from "./components/Footer";
+import Carousel from './components/Carousel';
+// import { Header, Footer, Hero, Carousel } from './components';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <Header />
+      <Carousel />
+      <Footer />
     </div>
   );
 }
