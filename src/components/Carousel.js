@@ -16,7 +16,7 @@ const Carousel = () => {
               A modern look in the summer capital of the Philippines
             </p>
             <p class="mb-5">
-              <a href="#spacer"><span class="quote-price">Get a Quote now</span></a>
+              <a href="#spacer"><span class="quote-price">Visit Preview</span></a>
             </p>
           </div>
         </div>
@@ -32,7 +32,7 @@ const Carousel = () => {
               A cozy and luxiorious dwelling in the Island of Boracay
             </p>
             <p class="mb-5">
-              <a href="#spacer"><span class="quote-price">Get a Quote now</span></a>
+              <a href="#spacer"><span class="quote-price">Visit Preview</span></a>
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Carousel = () => {
               A modern look in the summer capital of the Philippines
             </p>
             <p class="mb-5">
-              <a href="#spacer"><span class="quote-price">Get a Quote now</span></a>
+              <a href="#spacer"><span class="quote-price">Visit Preview</span></a>
             </p>
           </div>
         </div>
@@ -64,7 +64,7 @@ const Carousel = () => {
               A glamorous looking penthouse
             </p>
             <p class="mb-5">
-              <a href="#spacer"><span class="quote-price">Get a Quote now</span></a>
+              <a href="#spacer"><span class="quote-price">Visit Preview</span></a>
             </p>
           </div>
         </div>
@@ -80,7 +80,7 @@ const Carousel = () => {
               A modern look in the summer capital of the Philippines
             </p>
             <p class="mb-5">
-              <a href="#spacer"><span class="quote-price">Get a Quote now</span></a>
+              <a href="#spacer"><span class="quote-price">Visit Preview</span></a>
             </p>
           </div>
         </div>
