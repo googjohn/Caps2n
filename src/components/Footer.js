@@ -6,12 +6,15 @@ export const Footer = () => {
     <footer>
       <section className="footer-section text-gray-500 bg-black">
         <div className="container pt-4 mx-auto w-full max-w-screen-xl">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+          <div className="foot-item-header pb-4">
+            {/* <h3 className="w-title-a text-brand font-medium text-3xl">topagent.ph</h3> */}
+            <img src={Logo} alt="" />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-center">
             <div className="col-span-1">
               <div className="foot-item">
                 <div className="foot-item-header pb-4">
-                  {/* <h3 className="w-title-a text-brand font-medium text-3xl">topagent.ph</h3> */}
-                  <img src={Logo} alt="" />
+                  <h3 className="w-title-a text-brand font-medium text-3xl">About Us</h3>
                 </div>
                 <div className="w-body-a ml-3">
                   <p className="w-text-a text-white leading-8">
@@ -26,7 +29,7 @@ export const Footer = () => {
                       <span className="fw-bold">Phone:</span> +54 356 945234
                     </li>
                     <li className="text-white">
-                      <span className="fw-bold">Email:</span> topagent@mini1.ph
+                      <span className="fw-bold">Email:</span> topagent@capstone.ph
                     </li>
                   </ul>
                 </div>
@@ -39,14 +42,10 @@ export const Footer = () => {
                 </div>
                 <div className="w-body-a">
                   <ul className="list-unstyled font-medium">
-                    <li className="item-list-a">
-
-                      <a href="#" className='py-1 ml-3'>Site Map</a>
-                    </li>
 
                     <li className="item-list-a">
 
-                      <a href="#" className='py-1 ml-3'>Agent Admin</a>
+                      <a href="#" className='py-1 ml-3'>Our Team</a>
                     </li>
                     <li className="item-list-a">
 
@@ -74,20 +73,20 @@ export const Footer = () => {
                     </li>
                     <li className="item-list-a">
 
-                      <a href="#" className='py-1 ml-3'>Boracay Island</a>
+                      <a href="#" className='py-1 ml-3'>Cebu City</a>
                     </li>
                     <li className="item-list-a">
 
-                      <a href="#" className='py-1 ml-3'>Cebu City</a>
+                      <a href="#" className='py-1 ml-3'>Davao City</a>
                     </li>
 
+                    <li className="item-list-a">
+
+                      <a href="#" className='py-1 ml-3'>Metro Manila</a>
+                    </li>
                     <li className="item-list-a">
 
                       <a href="#" className='py-1 ml-3'>Tagaytay</a>
-                    </li>
-                    <li className="item-list-a">
-
-                      <a href="#" className='py-1 ml-3'>New Manila</a>
                     </li>
                   </ul>
                 </div>
@@ -108,9 +107,7 @@ export const Footer = () => {
                   <li className="item-list-a">
                     <a href="#" className="py-1 ml-3">Terms &amp; Conditions</a>
                   </li>
-                  <li className="item-list-a">
-                    <a href="#" className="py-1 ml-3">Brand Guidline</a>
-                  </li>
+
                 </ul>
               </div>
             </div>

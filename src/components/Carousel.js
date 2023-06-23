@@ -6,7 +6,7 @@ const Carousel = () => {
       <div className="relative h-screen overflow-hidden md:h-screen ">
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
           <img src="https://www.presello.com/wp-content/uploads/2022/08/Photo-5-13-23-11-10-07-AM.jpg" className="absolute block bg-cover w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-          <div className="pt-64 carousel-caption bg-gray-800 flex flex-col align-middle bg-opacity-60 p-5 pl-52 justify-start h- w-full absolute bottom-0 top-0">
+          <div className="pt-64 carousel-caption bg-gray-800 flex flex-col align-middle bg-opacity-40 p-5 pl-52 justify-start h- w-full absolute bottom-0 top-0">
             <h5 className="pb-4 text-white text-xl mb-2">Baguio City</h5>
             <h2 className="text-gold text-6xl font-bold mb-4">
               <span className="text-custom-green text-6xl mb-4">Freyya</span> <span className='block'>Model
@@ -22,7 +22,7 @@ const Carousel = () => {
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
           <img src="https://www.presello.com/wp-content/uploads/2022/09/29134-2.jpg" className="absolute block bg-cover w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-          <div className="pt-64 carousel-caption bg-gray-800 flex flex-col align-middle bg-opacity-60 p-5 pl-52 justify-start h- w-full absolute bottom-0 top-0">
+          <div className="pt-64 carousel-caption bg-gray-800 flex flex-col align-middle bg-opacity-40 p-5 pl-52 justify-start h- w-full absolute bottom-0 top-0">
             <h5 className="pb-4 text-white text-xl mb-2">Boracay Island</h5>
             <h2 className="text-gold text-6xl font-bold mb-4">
               <span className="text-custom-green text-6xl mb-4">Ella</span> <span className='block'>Model
@@ -38,7 +38,7 @@ const Carousel = () => {
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
           <img src="https://www.presello.com/wp-content/uploads/2020/09/IMG_9557-scaled.jpg" className="absolute block bg-cover w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-          <div className="pt-64 carousel-caption bg-gray-800 flex flex-col align-middle bg-opacity-60 p-5 pl-52 justify-start h- w-full absolute bottom-0 top-0">
+          <div className="pt-64 carousel-caption bg-gray-800 flex flex-col align-middle bg-opacity-40 p-5 pl-52 justify-start h- w-full absolute bottom-0 top-0">
             <h5 className="pb-4 text-white text-xl mb-2">Davao City</h5>
             <h2 className="text-gold text-6xl font-bold mb-4">
               <span className="text-custom-green text-6xl mb-4">Augustta</span> <span className='block'>Model
@@ -54,7 +54,7 @@ const Carousel = () => {
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
           <img src="https://www.presello.com/wp-content/uploads/2022/10/F8342A6B-B949-4C0E-9FEF-036EFD853F62-scaled.jpg" className="absolute block bg-cover w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-          <div className="pt-64 carousel-caption bg-gray-800 flex flex-col align-middle bg-opacity-60 p-5 pl-52 justify-start h- w-full absolute bottom-0 top-0">
+          <div className="pt-64 carousel-caption bg-gray-800 flex flex-col align-middle bg-opacity-40 p-5 pl-52 justify-start h- w-full absolute bottom-0 top-0">
             <h5 className="pb-4 text-white text-xl mb-2">Tagaytay City</h5>
             <h2 className="text-gold text-6xl font-bold mb-4">
               <span className="text-custom-green text-6xl mb-4">Gretta</span> <span className='block'>Model
@@ -70,7 +70,7 @@ const Carousel = () => {
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
           <img src="https://www.presello.com/wp-content/uploads/2022/02/21487-1.jpg" className="absolute block bg-cover w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-          <div className="pt-64 carousel-caption bg-gray-800 flex flex-col align-middle bg-opacity-60 p-5 pl-52 justify-start h- w-full absolute bottom-0 top-0">
+          <div className="pt-64 carousel-caption bg-gray-800 flex flex-col align-middle bg-opacity-40 p-5 pl-52 justify-start h- w-full absolute bottom-0 top-0">
             <h5 className="pb-4 text-white text-xl mb-2">Metro Manila</h5>
             <h2 className="text-gold text-6xl font-bold mb-4">
               <span className="text-custom-green text-6xl mb-4">Aletta</span> <span className='block'>Model

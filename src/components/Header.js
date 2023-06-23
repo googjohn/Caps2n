@@ -56,13 +56,13 @@ const Header = () => {
               <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
             </li>
             <li>
-              <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+              <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Featured Contents</a>
             </li>
             <li>
-              <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Pricing</a>
+              <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Condominiums</a>
             </li>
             <li>
-              <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+              <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact Us</a>
             </li>
           </ul>
         </div>

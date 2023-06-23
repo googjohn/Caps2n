@@ -70,3 +70,8 @@ footer a {
 #footer i:hover {
   color: var(--primary-color);
 }
+
+.foot-item-header img {
+  max-width: 40%;
+  margin: auto;
+}
