@@ -7,6 +7,7 @@ import { CatalogTitle } from './components/CatalogTitle';
 // import { Header, Footer, Hero, Carousel } from './components';
 import './App.css';
 import { Property } from "./pages/Property";
+import { ContactUs } from "./components/ContactUs";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <CatalogTitle />
       <CardList />
       <Property />
+      <ContactUs />
       <Footer />
     </div>
   );
