@@ -174,3 +174,8 @@ a {
   z-index: 10;
 }
 
+/* 
+.bg-prim {
+  background: rgb(254,188,116);
+  background: linear-gradient(90deg, rgba(254,188,116,1) 0%, #c8b568 50%, rgba(254,188,116,1) 100%);
+} */

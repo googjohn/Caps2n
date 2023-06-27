@@ -50,19 +50,19 @@ const Header = () => {
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu-2">
           <ul className="flex flex-col font-medium  md:p-0 mt-4 border border-gray-100 bg-black md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-black dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-              <a href="#" className="active nav-link block text-white bg-green text-lg  md:bg-transparent md:hover:text-green md:text-white md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+              <a href="#" className="active nav-link block text-white bg-green text-lg  md:bg-transparent md:hover:text-green transition duration-800 ease-in-out  md:text-white md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
             </li>
             <li>
-              <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+              <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green transition duration-800 ease-in-out text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
             </li>
             <li>
-              <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Featured Contents</a>
+              <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green transition duration-800 ease-in-out text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Featured Contents</a>
             </li>
             <li>
-              <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Condominiums</a>
+              <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green transition duration-800 ease-in-out text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Condominiums</a>
             </li>
             <li>
-              <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact Us</a>
+              <a href="#" className="nav-link block text-gray-100  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green transition duration-800 ease-in-out text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact Us</a>
             </li>
           </ul>
         </div>

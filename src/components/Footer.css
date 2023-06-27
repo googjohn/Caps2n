@@ -9,10 +9,10 @@
   --primary-color: #229b50;
 }
 
-footer a {
+/* footer a {
   border: 2px solid transparent;
   color: #333;
-}
+} */
 
 #footer .socials a,
 .footer-section a {
@@ -23,18 +23,18 @@ footer a {
   padding-bottom: 5px;
 }
 .footer-section a:hover {
-  border-bottom: 2px solid var(--logo-color);
+  /* border-bottom: 2px solid var(--logo-color); */
 
   color: var(--primary-color);
   transition: 0.5s all;
 }
-.footer-section i {
+/* .footer-section i {
   border: 2px solid transparent;
   padding-bottom: 5px;
 }
 .footer-section i:hover {
   border-bottom: 2px solid var(--logo-color);
-}
+} */
 .footer-section i:hover {
   color: var(--primary-color);
 }
@@ -42,14 +42,14 @@ footer a {
 .nav-footer {
   font-size: 18px;
 }
-.nav-footer i {
+.nav-footer a {
   color: var(--primary-color);
 }
-#footer a:hover {
+/* #footer a:hover {
   border-bottom: 2px solid var(--logo-color);
   color: var(--primary-color);
   transition: 0.5s all;
-}
+} */
 
 .text-custom-green {
   color: var(--primary-color);
@@ -74,4 +74,36 @@ footer a {
 .foot-item-header img {
   max-width: 40%;
   margin: auto;
+}
+#footer a {
+  padding-bottom: 5px;
+}
+#footer a, .footer-section a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+#footer a::before, .footer-section a::before,
+#footer a::after, .footer-section a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  background-color: var(--logo-color);
+  transition: width .3s ease-out;
+}
+#footer a::before, .footer-section a::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#footer a::after, .footer-section a::after {
+  right: 50%;
+  transform: translateX(50%);
+}
+
+#footer a:hover::before, .footer-section a:hover::before,
+#footer a:hover::after, .footer-section a:hover::after {
+  width: 100%;
 }

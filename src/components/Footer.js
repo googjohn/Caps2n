@@ -16,14 +16,14 @@ export const Footer = () => {
                 <div className="foot-item-header pb-4">
                   <h3 className="w-title-a text-brand font-medium text-3xl">About Us</h3>
                 </div>
-                <div className="w-body-a ml-3">
-                  <p className="w-text-a text-white leading-8">
+                <div className="w-body-a">
+                  <p className="w-text-a text-white ">
                     TopAgentPH is a real estate company based in the Philippines
                     that specializes in providing exceptional service to clients
                     in buying, selling, and renting properties.
                   </p>
                 </div>
-                <div className="w-footer-a mt-4 ml-3">
+                <div className="w-footer-a mt-4">
                   <ul className="list-unstyled">
                     <li className="text-white">
                       <span className="fw-bold">Phone:</span> +54 356 945234
@@ -36,7 +36,7 @@ export const Footer = () => {
               </div>
             </div>
             <div className="col-span-1">
-              <div className="foot-item leading-8">
+              <div className="foot-item ">
                 <div className="foot-item-header pb-4">
                   <h3 className="w-title-a text-brand font-medium text-3xl">The Company</h3>
                 </div>
@@ -45,15 +45,15 @@ export const Footer = () => {
 
                     <li className="item-list-a">
 
-                      <a href="#" className='py-1 ml-3'>Our Team</a>
+                      <a href="#" className='py-1'>Our Team</a>
                     </li>
                     <li className="item-list-a">
 
-                      <a href="#" className='py-1 ml-3'>Careers</a>
+                      <a href="#" className='py-1'>Careers</a>
                     </li>
                     <li className="item-list-a">
 
-                      <a href="#" className='py-1 ml-3'>Affiliate</a>
+                      <a href="#" className='py-1'>Affiliate</a>
                     </li>
 
                   </ul>
@@ -66,46 +66,46 @@ export const Footer = () => {
                   <h3 className="w-title-a text-brand font-medium text-3xl">Key Locations</h3>
                 </div>
                 <div>
-                  <ul className="list-unstyled leading-8 font-medium">
+                  <ul className="list-unstyled  font-medium">
                     <li className="item-list-a">
 
-                      <a href="#" className='py-1 ml-3'>Baguio City</a>
+                      <a href="#" className='py-1'>Baguio City</a>
                     </li>
                     <li className="item-list-a">
 
-                      <a href="#" className='py-1 ml-3'>Cebu City</a>
+                      <a href="#" className='py-1'>Cebu City</a>
                     </li>
                     <li className="item-list-a">
 
-                      <a href="#" className='py-1 ml-3'>Davao City</a>
+                      <a href="#" className='py-1'>Davao City</a>
                     </li>
 
                     <li className="item-list-a">
 
-                      <a href="#" className='py-1 ml-3'>Metro Manila</a>
+                      <a href="#" className='py-1'>Metro Manila</a>
                     </li>
                     <li className="item-list-a">
 
-                      <a href="#" className='py-1 ml-3'>Tagaytay</a>
+                      <a href="#" className='py-1'>Tagaytay</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
             <div className='col-span-1'>
-              <div className='foot-item leading-8'>
+              <div className='foot-item '>
                 <div className="foot-item-header pb-4">
                   <h3 className="w-title-a text-brand font-medium text-3xl">Legal</h3>
                 </div>
                 <ul className="text-gray-800 dark:text-gray-400 font-medium">
                   <li className="item-list-a">
-                    <a href="#" className="py-1 ml-3">Privacy Policy</a>
+                    <a href="#" className="py-1">Privacy Policy</a>
                   </li>
                   <li className="item-list-a">
                     <a href="#" className="py-1 ml-3">Licensing</a>
                   </li>
                   <li className="item-list-a">
-                    <a href="#" className="py-1 ml-3">Terms &amp; Conditions</a>
+                    <a href="#" className="py-1">Terms &amp; Conditions</a>
                   </li>
 
                 </ul>
@@ -151,7 +151,7 @@ export const Footer = () => {
         </div>
       </section>
       <hr className="border-gold" />
-      <section id="footer" className="bg-gray-700 flex justify-between">
+      <section id="footer" className="bg-black flex justify-between">
         <div className="max-w-screen-xl mx-auto ">
           <div className=" py-8">
             <p className="text-white">
@@ -161,16 +161,16 @@ export const Footer = () => {
         </div>
         <ul className="max-w-screen-xl mx-auto flex flex-wrap items-center mt-3 text-sm font-medium text-gray-100 dark:text-gray-400 sm:mt-0">
           <li>
-            <a href="#" className="nav-footer text-white md:mr-6">About</a>
+            <a href="#" className="nav-footer hover:text-green text-white md:mr-6">About</a>
           </li>
           <li>
-            <a href="#" className="nav-footer text-white md:mr-6">Services</a>
+            <a href="#" className="nav-footer hover:text-green text-white md:mr-6">Services</a>
           </li>
           <li>
-            <a href="#" className="nav-footer text-white md:mr-6">Pricing</a>
+            <a href="#" className="nav-footer hover:text-green text-white md:mr-6">Pricing</a>
           </li>
           <li>
-            <a href="#" className="nav-footer text-white">Contact</a>
+            <a href="#" className="nav-footer hover:text-green text-white">Contact</a>
           </li>
         </ul>
       </section>
