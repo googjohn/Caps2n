@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import Logo from '../assets/logo-no-background.png';
+import Logo from '../assets/TOPAGENTCAPSTONELOGO5.png';
 import Typed from 'typed.js';
 import './Hero.css';
 
@@ -32,10 +32,10 @@ const Hero = () => {
     <section id="hero">
       <div className="hero-container">
         <div className="hero-logo">
-          <img src={Logo} alt="Logo" />
+          <img src={Logo} className="h-20 inline-block " alt="Logo" />
         </div>
 
-        <h1 className="text-7xl">Welcome Home</h1>
+        <h1 className="text-5xl">Welcome Home</h1>
         <h2 className="text-3xl inline-block">
           We offer
           <span id="typing-text" className="typed text-3xl ml-3" ref={typedRef}></span>

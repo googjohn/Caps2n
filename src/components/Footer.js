@@ -1,6 +1,7 @@
 import React from 'react';
-import Logo from '../assets/logo-no-background.png';
+import Logo from '../assets/TOPAGENTCAPSTONELOGO5.png'
 import './Footer.css';
+
 export const Footer = () => {
   return (
     <footer>
@@ -8,7 +9,7 @@ export const Footer = () => {
         <div className="container pt-4 mx-auto w-full max-w-screen-xl">
           <div className="foot-item-header pb-4">
             {/* <h3 className="w-title-a text-brand font-medium text-3xl">topagent.ph</h3> */}
-            <img src={Logo} alt="" />
+            <img src={Logo} className="h-10 mr-3" alt="Top Agent" />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-center">
             <div className="col-span-1">
@@ -97,15 +98,15 @@ export const Footer = () => {
                 <div className="foot-item-header pb-4">
                   <h3 className="w-title-a text-brand font-medium text-3xl">Legal</h3>
                 </div>
-                <ul className="text-gray-800 dark:text-gray-400 font-medium">
+                <ul className="text-white dark:text-gray-400 font-medium">
                   <li className="item-list-a">
-                    <a href="#" className="py-1 ml-3">Privacy Policy</a>
+                    <button data-modal-target="privacyModal" data-modal-toggle="privacyModal" className="py-1 ml-3" type="button">Privacy Policy</button>
                   </li>
                   <li className="item-list-a">
                     <a href="#" className="py-1 ml-3">Licensing</a>
                   </li>
                   <li className="item-list-a">
-                    <a href="#" className="py-1 ml-3">Terms &amp; Conditions</a>
+                  <button data-modal-target="ModalTandC" data-modal-toggle="ModalTandC" className="py-1 ml-3" type="button">Terms & Conditions</button>
                   </li>
 
                 </ul>

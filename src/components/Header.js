@@ -1,5 +1,5 @@
 // import { Link, NavLink } from 'react-router-dom';
-import Logo from '../assets/logo-no-background.png';
+import Logo from '../assets/TOPAGENTCAPSTONELOGO5.png';
 import ReactLogo from '../assets/logo-react.png';
 import './Header.css';
 const Header = () => {
@@ -14,12 +14,17 @@ const Header = () => {
     <nav id="nav-bar" className="bg-black border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
         <a href="/" className="flex items-center">
-          <img src={Logo} className="h-20 mr-3" alt="Flowbite Logo" />
+          <img src={Logo} className="h-9 mr-3" alt="Flowbite Logo" />
         </a>
         <div className="flex items-center md:order-2">
           <button type="button" className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
             <span className="sr-only">Open user menu</span>
-            <img className="w-8 h-8 rounded-full" src={ReactLogo} alt="user photo" />
+
+            <div class="relative w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
+           <svg class="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
+            </div>
+
+            {/* <img className="w-8 h-8 rounded-full" src={ReactLogo} alt="user photo" /> */}
           </button>
 
           <div className="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
