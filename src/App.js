@@ -4,8 +4,9 @@ import { Footer } from "./components/Footer";
 import Carousel from './components/Carousel';
 import {Ourteam} from "./components/Ourteam";
 import Careers from "./components/Careers";
-import  PrivacyPolicy from "./components/PrivacyPolicy";
+import  ModalPriPol from "./components/ModalPriPol";
 import  ModalTandC  from "./components/ModalTandC";
+import  ModalLicensing  from "./components/ModalLicensing";
 import Affiliates from "./components/Affiliates";
 import  SendInquiries  from "./components/SendInquiries";
 
@@ -21,8 +22,9 @@ const App = () => {
       <Carousel />
       <Ourteam/>
       <Careers/>
-      <PrivacyPolicy/>
+      <ModalPriPol/>
       <ModalTandC/>
+      <ModalLicensing/>
       <Affiliates/>
       <SendInquiries/>
       <Footer />

@@ -103,7 +103,7 @@ export const Footer = () => {
                     <button data-modal-target="privacyModal" data-modal-toggle="privacyModal" className="py-1 ml-3" type="button">Privacy Policy</button>
                   </li>
                   <li className="item-list-a">
-                    <a href="#" className="py-1 ml-3">Licensing</a>
+                    <button data-modal-target="ModalLicensing" data-modal-toggle="ModalLicensing"className="py-1 ml-3">Licensing</button>
                   </li>
                   <li className="item-list-a">
                   <button data-modal-target="ModalTandC" data-modal-toggle="ModalTandC" className="py-1 ml-3" type="button">Terms & Conditions</button>

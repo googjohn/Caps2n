@@ -1,5 +1,5 @@
 
-export const PrivacyPolicy = () => {
+export const ModalPriPol = () => {
   return (
 <div>
       <div id="privacyModal" tabindex="1" aria-hidden="true" className="fixed top-0 left-0 right-0 z-50 hidden w-full pt-20 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
@@ -64,4 +64,4 @@ export const PrivacyPolicy = () => {
     </div>
   )
 }
-export default PrivacyPolicy;
+export default ModalPriPol;
