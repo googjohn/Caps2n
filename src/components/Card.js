@@ -1,11 +1,22 @@
 const Card = () => {
   return (
+    // <div className="max-w-full sm:max-w-sm bg-gray-100 border border-gray-200 rounded-md hover:drop-shadow-lg transition duration-500 ease-out dark:bg-gray-800 dark:border-gray-700">
+    //   <div className="absolute top-2 left-2 z-20">
+    //     <button className="px-3 py-1 rounded-full bg-gray-300/50 font-medium text-gray-700 hover:bg-gray-300/80"><i className="fa-solid fa-location-dot"></i> Location</button>
+    //   </div>
+    //   <a href="#" className="relative inline-block overflow-hidden">
+    //     <div className="aspect-w-16 aspect-h-9">
+    //       <img className="z-10 object-cover w-full h-full rounded-t-md transform transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" src="https://www.presello.com/wp-content/uploads/2022/09/29134-2.jpg" alt="" />
+    //     </div>
+    //   </a>
     <div className="relative max-w-sm bg-gray-100 border border-gray-200 rounded-md hover:drop-shadow-lg transition duration-500 ease-out dark:bg-gray-800 dark:border-gray-700">
-      <div className="absolute top-2 left-2">
-        <button className="px-3 py-1 rounded-full bg-gray-300/50 font-medium text-gray-700 hover:bg-gray-300/80"><i class="fa-solid fa-location-dot"></i> Location</button>
+      <div className="absolute top-2 left-2 z-20">
+        <button className="px-3 py-1 rounded-full bg-gray-300/50 font-medium text-gray-700 hover:bg-gray-300/80"><i className="fa-solid fa-location-dot"></i> Location</button>
       </div>
-      <a href="#">
-        <img className="rounded-t-md" src="https://www.presello.com/wp-content/uploads/2022/09/29134-2.jpg" alt="" />
+      <a href="#" className="relative inline-block overflow-hidden">
+        <div className="aspect-w-16 aspect-h-9">
+          <img className="z-10 object-cover w-full h-full rounded-t-md transform transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" src="https://www.presello.com/wp-content/uploads/2022/09/29134-2.jpg" alt="" />
+        </div>
       </a>
       <div className="p-5">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Php 100,000,000</h5>
@@ -14,10 +25,10 @@ const Card = () => {
         </a>
         <div className="flex gap-8 mb-2">
           <div>
-            <i className="fas fa-bed"></i><span> 4 Bedrooms</span>
+            <i className="fas fa-bed"></i><span className="uppercase"> 4 Bedrooms</span>
           </div>
           <div>
-            <i className="fas fa-shower"></i><span> 5 Bathrooms</span>
+            <i className="fas fa-shower"></i><span className="uppercase"> 5 Bathrooms</span>
           </div>
         </div>
         <p className="uppercase text-base mb-4 font-medium">Available</p>
